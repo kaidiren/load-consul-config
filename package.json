@@ -1,6 +1,6 @@
 {
   "name": "load-consul-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "load some config from consule with node-config module",
   "main": "index.js",
   "scripts": {
