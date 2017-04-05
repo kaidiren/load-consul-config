@@ -1,0 +1,15 @@
+{
+  "name": "load-consul-config",
+  "version": "1.0.0",
+  "description": "load some config from consule with node-config module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaidiren@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "consul": "^0.28.0",
+    "deasync": "^0.1.9"
+  }
+}
