@@ -32,6 +32,7 @@ function loadConsulConfig(opts) {
       if (err) {
         warn(warning);
         console.error('get consul config error:', err);
+        return cb(err);
       }
 
       if (data && data.Value) {
@@ -41,6 +42,7 @@ function loadConsulConfig(opts) {
         } catch (e) {
           warn(warning);
           console.error(`parse consul config failed: error: ${e}, orginalData: ${JSON.stringify(data)}`);
+          return cb(e);
         }
       }
 
